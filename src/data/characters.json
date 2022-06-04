@@ -1,13 +1,28 @@
-[{
-    "name": "Samex",
-    "race": "Half-orc",
-    "class": "Monk",
-    "attributes": {
-        "strenght": "13",
-        "dexterity": "13",
-        "constitution": "13",
-        "intelligence": "13",
-        "wisdom": "13",
-        "charisma": "13"
+[
+    {
+        "name": "Samex",
+        "race": "Half-orc",
+        "class": "Monk",
+        "attributes": {
+            "strenght": "13",
+            "dexterity": "13",
+            "constitution": "13",
+            "intelligence": "13",
+            "wisdom": "13",
+            "charisma": "13"
+        }
+    },
+    {
+        "name": "Bradock",
+        "race": "Draconato",
+        "class": "Paladino",
+        "attributes": {
+            "strenght": "19",
+            "dexterity": "9",
+            "constitution": "12",
+            "intelligence": "9",
+            "wisdom": "8",
+            "charisma": "14"
+        }
     }
-}]
+]

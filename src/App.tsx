@@ -25,7 +25,7 @@ export default function App() {
   return (
     <Container maxWidth="sm">
       {characters.map(char=>
-      <CardContainer>
+      <CardContainer imageName={char.name}>
         <TitleContainer>
           <Title>{char.name}</Title>
           <SubTitle>{`${char.race} / ${char.class}`}</SubTitle>

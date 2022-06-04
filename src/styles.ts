@@ -1,12 +1,16 @@
 import styled from "styled-components";
 
-export const CardContainer = styled.div`
+interface IImage{
+    imageName: string;
+}
+
+export const CardContainer = styled.div<IImage>`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 834px;
     width: 514px;
-    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1) 80%, rgba(0,0,0,1)), url('/images/samex.png');
+    background: ${props=> `linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1) 80%, rgba(0,0,0,1)), url('/images/${props.imageName}.png')`};
 `
 
 export const TitleContainer = styled.div`
