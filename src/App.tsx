@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Container from '@material-ui/core/Container';
-import {CardContainer, AttributeIcon, Title, SubTitle, AttributeContainer, TitleContainer, AttributeValue, SideContainer, LogoContainer, LogoIcon, LogoValue} from './styles'
+import {Main, CardContainer, AttributeIcon, Title, SubTitle, AttributeContainer, TitleContainer, AttributeValue, SideContainer, LogoContainer, LogoIcon, LogoValue} from './styles'
 import data from './data/characters.json'
 
 interface ICharacter {
@@ -23,7 +23,7 @@ export default function App() {
   const characters: ICharacter[] = data
 
   return (
-    <Container maxWidth="sm">
+    <Main>
       {characters.map(char=>
       <CardContainer imageName={char.name}>
         <TitleContainer>
@@ -51,6 +51,6 @@ export default function App() {
           </LogoContainer>
         </SideContainer>
       </CardContainer>)}
-    </Container>
+    </Main>
   );
 }

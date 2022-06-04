@@ -4,6 +4,12 @@ interface IImage{
     imageName: string;
 }
 
+export const Main = styled.main`
+    display: flex;
+    padding: 2%;
+    justify-content: space-around;
+`
+
 export const CardContainer = styled.div<IImage>`
     display: flex;
     flex-direction: row;
