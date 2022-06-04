@@ -1,0 +1,13 @@
+[{
+    "name": "Samex",
+    "race": "Half-orc",
+    "class": "Monk",
+    "attributes": {
+        "strenght": "13",
+        "dexterity": "13",
+        "constitution": "13",
+        "intelligence": "13",
+        "wisdom": "13",
+        "charisma": "13"
+    }
+}]
