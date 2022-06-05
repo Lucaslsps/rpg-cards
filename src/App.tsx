@@ -20,7 +20,7 @@ interface IAttribute{
 }
 
 export default function App() {
-  const characters: ICharacter[] = data
+  const characters: ICharacter[] = data.map(char=>({...char, name: char.name.replaceAll("'", '')}))
 
   return (
     <Main>

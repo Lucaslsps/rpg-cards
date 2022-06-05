@@ -1,7 +1,7 @@
 [
     {
         "name": "Samex",
-        "race": "Half-orc",
+        "race": "Meio-orc",
         "class": "Monk",
         "attributes": {
             "strenght": "15",
@@ -36,6 +36,58 @@
             "intelligence": "16",
             "wisdom": "13",
             "charisma": "12"
+        }
+    },
+    {
+        "name": "Kai",
+        "race": "Humano",
+        "class": "Monge",
+        "attributes": {
+            "strenght": "11",
+            "dexterity": "13",
+            "constitution": "11",
+            "intelligence": "9",
+            "wisdom": "12",
+            "charisma": "10"
+        }
+    },
+    {
+        "name": "Sed'an",
+        "race": "Drow",
+        "class": "Ladino",
+        "attributes": {
+            "strenght": "6",
+            "dexterity": "16",
+            "constitution": "12",
+            "intelligence": "12",
+            "wisdom": "12",
+            "charisma": "14"
+        }
+    },
+    {
+        "name": "Xan'druz",
+        "race": "Meio-Elfo",
+        "class": "Druida",
+        "attributes": {
+            "strenght": "14",
+            "dexterity": "7",
+            "constitution": "14",
+            "intelligence": "16",
+            "wisdom": "18",
+            "charisma": "16"
+        }
+    },
+    {
+        "name": "Zecapa Godinho",
+        "race": "Gnomo",
+        "class": "Bardo",
+        "attributes": {
+            "strenght": "9",
+            "dexterity": "15",
+            "constitution": "15",
+            "intelligence": "12",
+            "wisdom": "13",
+            "charisma": "15"
         }
     }
 ]
