@@ -89,5 +89,31 @@
             "wisdom": "13",
             "charisma": "15"
         }
+    },
+    {
+        "name": "Tharivol",
+        "race": "Alto Elfo",
+        "class": "Mago",
+        "attributes": {
+            "strenght": "8",
+            "dexterity": "14",
+            "constitution": "11",
+            "intelligence": "16",
+            "wisdom": "7",
+            "charisma": "5"
+        }
+    },
+    {
+        "name": "Legault",
+        "race": "Humano",
+        "class": "Patrulheiro",
+        "attributes": {
+            "strenght": "13",
+            "dexterity": "18",
+            "constitution": "17",
+            "intelligence": "9",
+            "wisdom": "14",
+            "charisma": "9"
+        }
     }
 ]
