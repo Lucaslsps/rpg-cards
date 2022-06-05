@@ -91,6 +91,7 @@ export const LogoContainer = styled.div`
 export const LogoIcon = styled.img`
     height: 30px;
     width: 30px;
+    filter: grayscale(100%) brightness(70%) sepia(50%) hue-rotate(-100deg) saturate(500%) contrast(1);
 `
 
 export const LogoValue = styled.span`
@@ -100,4 +101,6 @@ export const LogoValue = styled.span`
     color:white;
     font-family: Dancing Script;
     font-size: 20px;
+    filter: grayscale(100%) brightness(70%) sepia(50%) hue-rotate(-100deg) saturate(500%) contrast(1);
+
 `
