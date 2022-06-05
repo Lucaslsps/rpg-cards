@@ -8,6 +8,7 @@ export const Main = styled.main`
     display: flex;
     padding: 2%;
     justify-content: space-around;
+    flex-wrap: wrap;
 `
 
 export const CardContainer = styled.div<IImage>`
@@ -17,6 +18,7 @@ export const CardContainer = styled.div<IImage>`
     height: 834px;
     width: 514px;
     background: ${props=> `linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1) 80%, rgba(0,0,0,1)), url('/images/${props.imageName}.png')`};
+    margin: 1%;
 `
 
 export const TitleContainer = styled.div`
@@ -46,6 +48,7 @@ export const SubTitle = styled.span`
     font-family: arial;
     text-shadow: 2px 2px white;
     line-height: 1;
+    color: grey;
 `
 
 export const SideContainer = styled.div`
