@@ -4,12 +4,12 @@
         "race": "Half-orc",
         "class": "Monk",
         "attributes": {
-            "strenght": "13",
-            "dexterity": "13",
-            "constitution": "13",
-            "intelligence": "13",
-            "wisdom": "13",
-            "charisma": "13"
+            "strenght": "15",
+            "dexterity": "12",
+            "constitution": "16",
+            "intelligence": "11",
+            "wisdom": "12",
+            "charisma": "8"
         }
     },
     {
