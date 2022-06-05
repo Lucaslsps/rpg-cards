@@ -24,5 +24,18 @@
             "wisdom": "8",
             "charisma": "14"
         }
+    },
+    {
+        "name": "Birh Godinho",
+        "race": "Gnomo das Rochas",
+        "class": "Guerreiro",
+        "attributes": {
+            "strenght": "16",
+            "dexterity": "8",
+            "constitution": "16",
+            "intelligence": "16",
+            "wisdom": "13",
+            "charisma": "12"
+        }
     }
 ]
